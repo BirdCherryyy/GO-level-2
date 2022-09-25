@@ -1,0 +1,25 @@
+PS D:\Учеба GB\GO-level-2\HW5> go test -bench=Benchmark10W90R HW5_1_test.go
+goos: windows
+goarch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+Benchmark10W90R/#00-12           2758384               391.8 ns/op
+PASS
+ok      command-line-arguments  1.546s
+
+
+PS D:\Учеба GB\GO-level-2\HW5> go test -bench=Benchmark50W50R HW5_1_test.go
+goos: windows
+goarch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+Benchmark50W50R/#00-12           2526163               473.5 ns/op
+PASS
+ok      command-line-arguments  1.713s
+
+
+PS D:\Учеба GB\GO-level-2\HW5> go test -bench=Benchmark90W10R HW5_1_test.go
+goos: windows
+goarch: amd64
+cpu: 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+Benchmark90W10R/#00-12           2126042               611.6 ns/op
+PASS
+ok      command-line-arguments  1.906s
